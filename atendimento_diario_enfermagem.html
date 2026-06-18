@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>IEPC PVB - Atendimento Diário de Enfermagem 2026</title>
+    <link rel="stylesheet" href="atendimento_diario_enfermagem.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="frame">
+        <!-- Cabeçalho -->
+        <div class="header">
+          <img class="logo" src="Logo_viver_bem_2.png" alt="Viver Bem" />
+          <img class="iepc" src="Logo_IEPC.png" alt="IEPC" />
+        </div>
+
+        <!-- Linha de data -->
+        <p class="data-linha">
+          <strong>Maricá,</strong>
+          <span class="line">{{dia}}</span>de
+          <span class="line line-mes">{{mes}}</span>de
+          <span class="line line-ano">{{ano}}</span>.
+        </p>
+
+        <!-- Título -->
+        <div class="titulo">ATENDIMENTO DIÁRIO DE ENFERMAGEM</div>
+
+        <!-- Polo -->
+        <table class="polo">
+          <tr>
+            <th colspan="5">POLO:</th>
+          </tr>
+          <tr>
+            <td>Inoã ({{polo_inoa}})</td>
+            <td>Ubatiba ({{polo_ubatiba}})</td>
+            <td>S. José ({{polo_sjose}})</td>
+            <td>Bambuí ({{polo_bambui}})</td>
+            <td>Itapeba ({{polo_itapeba}})</td>
+          </tr>
+          <tr>
+            <td>P. Nanci ({{polo_pnanci}})</td>
+            <td>Espraiado ({{polo_espraiado}})</td>
+            <td>S. José Extensão({{polo_sjose_ext}})</td>
+            <td>P. Negra ({{polo_pnegra}})</td>
+            <td>Manu Manuela/Itaipuaçu ({{polo_manu}})</td>
+          </tr>
+        </table>
+
+        <!-- Grade principal -->
+        <table class="main-grid">
+          <colgroup>
+            <col class="col-nome" />
+            <col class="col-pa" />
+            <col class="col-hasdm" />
+            <col class="col-has" />
+            <col class="col-dm" />
+            <col class="col-sc" />
+            <col class="col-horas" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>NOME</th>
+              <th>P.A:</th>
+              <th>HAS/ D/M</th>
+              <th>HAS</th>
+              <th>D/M</th>
+              <th>S/C</th>
+              <th>HORAS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{nome_01}}</td>
+              <td>{{pa_01}}</td>
+              <td>{{hasdm_01}}</td>
+              <td>{{has_01}}</td>
+              <td>{{dm_01}}</td>
+              <td>{{sc_01}}</td>
+              <td>{{horas_01}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_02}}</td>
+              <td>{{pa_02}}</td>
+              <td>{{hasdm_02}}</td>
+              <td>{{has_02}}</td>
+              <td>{{dm_02}}</td>
+              <td>{{sc_02}}</td>
+              <td>{{horas_02}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_03}}</td>
+              <td>{{pa_03}}</td>
+              <td>{{hasdm_03}}</td>
+              <td>{{has_03}}</td>
+              <td>{{dm_03}}</td>
+              <td>{{sc_03}}</td>
+              <td>{{horas_03}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_04}}</td>
+              <td>{{pa_04}}</td>
+              <td>{{hasdm_04}}</td>
+              <td>{{has_04}}</td>
+              <td>{{dm_04}}</td>
+              <td>{{sc_04}}</td>
+              <td>{{horas_04}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_05}}</td>
+              <td>{{pa_05}}</td>
+              <td>{{hasdm_05}}</td>
+              <td>{{has_05}}</td>
+              <td>{{dm_05}}</td>
+              <td>{{sc_05}}</td>
+              <td>{{horas_05}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_06}}</td>
+              <td>{{pa_06}}</td>
+              <td>{{hasdm_06}}</td>
+              <td>{{has_06}}</td>
+              <td>{{dm_06}}</td>
+              <td>{{sc_06}}</td>
+              <td>{{horas_06}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_07}}</td>
+              <td>{{pa_07}}</td>
+              <td>{{hasdm_07}}</td>
+              <td>{{has_07}}</td>
+              <td>{{dm_07}}</td>
+              <td>{{sc_07}}</td>
+              <td>{{horas_07}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_08}}</td>
+              <td>{{pa_08}}</td>
+              <td>{{hasdm_08}}</td>
+              <td>{{has_08}}</td>
+              <td>{{dm_08}}</td>
+              <td>{{sc_08}}</td>
+              <td>{{horas_08}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_09}}</td>
+              <td>{{pa_09}}</td>
+              <td>{{hasdm_09}}</td>
+              <td>{{has_09}}</td>
+              <td>{{dm_09}}</td>
+              <td>{{sc_09}}</td>
+              <td>{{horas_09}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_10}}</td>
+              <td>{{pa_10}}</td>
+              <td>{{hasdm_10}}</td>
+              <td>{{has_10}}</td>
+              <td>{{dm_10}}</td>
+              <td>{{sc_10}}</td>
+              <td>{{horas_10}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_11}}</td>
+              <td>{{pa_11}}</td>
+              <td>{{hasdm_11}}</td>
+              <td>{{has_11}}</td>
+              <td>{{dm_11}}</td>
+              <td>{{sc_11}}</td>
+              <td>{{horas_11}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_12}}</td>
+              <td>{{pa_12}}</td>
+              <td>{{hasdm_12}}</td>
+              <td>{{has_12}}</td>
+              <td>{{dm_12}}</td>
+              <td>{{sc_12}}</td>
+              <td>{{horas_12}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_13}}</td>
+              <td>{{pa_13}}</td>
+              <td>{{hasdm_13}}</td>
+              <td>{{has_13}}</td>
+              <td>{{dm_13}}</td>
+              <td>{{sc_13}}</td>
+              <td>{{horas_13}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_14}}</td>
+              <td>{{pa_14}}</td>
+              <td>{{hasdm_14}}</td>
+              <td>{{has_14}}</td>
+              <td>{{dm_14}}</td>
+              <td>{{sc_14}}</td>
+              <td>{{horas_14}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_15}}</td>
+              <td>{{pa_15}}</td>
+              <td>{{hasdm_15}}</td>
+              <td>{{has_15}}</td>
+              <td>{{dm_15}}</td>
+              <td>{{sc_15}}</td>
+              <td>{{horas_15}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_16}}</td>
+              <td>{{pa_16}}</td>
+              <td>{{hasdm_16}}</td>
+              <td>{{has_16}}</td>
+              <td>{{dm_16}}</td>
+              <td>{{sc_16}}</td>
+              <td>{{horas_16}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_17}}</td>
+              <td>{{pa_17}}</td>
+              <td>{{hasdm_17}}</td>
+              <td>{{has_17}}</td>
+              <td>{{dm_17}}</td>
+              <td>{{sc_17}}</td>
+              <td>{{horas_17}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_18}}</td>
+              <td>{{pa_18}}</td>
+              <td>{{hasdm_18}}</td>
+              <td>{{has_18}}</td>
+              <td>{{dm_18}}</td>
+              <td>{{sc_18}}</td>
+              <td>{{horas_18}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_19}}</td>
+              <td>{{pa_19}}</td>
+              <td>{{hasdm_19}}</td>
+              <td>{{has_19}}</td>
+              <td>{{dm_19}}</td>
+              <td>{{sc_19}}</td>
+              <td>{{horas_19}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_20}}</td>
+              <td>{{pa_20}}</td>
+              <td>{{hasdm_20}}</td>
+              <td>{{has_20}}</td>
+              <td>{{dm_20}}</td>
+              <td>{{sc_20}}</td>
+              <td>{{horas_20}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_21}}</td>
+              <td>{{pa_21}}</td>
+              <td>{{hasdm_21}}</td>
+              <td>{{has_21}}</td>
+              <td>{{dm_21}}</td>
+              <td>{{sc_21}}</td>
+              <td>{{horas_21}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_22}}</td>
+              <td>{{pa_22}}</td>
+              <td>{{hasdm_22}}</td>
+              <td>{{has_22}}</td>
+              <td>{{dm_22}}</td>
+              <td>{{sc_22}}</td>
+              <td>{{horas_22}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_23}}</td>
+              <td>{{pa_23}}</td>
+              <td>{{hasdm_23}}</td>
+              <td>{{has_23}}</td>
+              <td>{{dm_23}}</td>
+              <td>{{sc_23}}</td>
+              <td>{{horas_23}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_24}}</td>
+              <td>{{pa_24}}</td>
+              <td>{{hasdm_24}}</td>
+              <td>{{has_24}}</td>
+              <td>{{dm_24}}</td>
+              <td>{{sc_24}}</td>
+              <td>{{horas_24}}</td>
+            </tr>
+            <tr>
+              <td>{{nome_25}}</td>
+              <td>{{pa_25}}</td>
+              <td>{{hasdm_25}}</td>
+              <td>{{has_25}}</td>
+              <td>{{dm_25}}</td>
+              <td>{{sc_25}}</td>
+              <td>{{horas_25}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Assinaturas -->
+        <div class="assinaturas">
+          <table>
+            <tr>
+              <td style="width: 50%"><span class="lbl">ENFERMEIRA:</span></td>
+              <td style="width: 50%"><span class="lbl">SUB GERENTE:</span></td>
+            </tr>
+            <tr>
+              <td style="height: 22px"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><span class="lbl">TÉCNICO:</span></td>
+              <td><span class="lbl">GERENTE GERAL:</span></td>
+            </tr>
+            <tr>
+              <td style="height: 22px"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <span class="lbl">COORDENADOR DE ENFERMAGEM:</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="footer">
+          <img src="Logo_prefeitura_de_marica.png" alt="Prefeitura de Maricá" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
